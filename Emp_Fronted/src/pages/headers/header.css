@@ -1,0 +1,19 @@
+.navbar{
+    background-color: aqua;
+}
+
+.navbar .navbar-brand{
+    color: white;
+}
+
+.navbar .nav-link{
+    color: 3fff;
+    margin-right: 20px;
+}
+
+@media (max-width:576px)
+{
+    .navbar .nav-link{
+        margin-right: 0;
+    }
+}
